@@ -1,0 +1,88 @@
+/* 
+GLOBAL STYLES
+ */
+
+ body {
+     font-family: 'Roboto', sans-serif;
+     font-size: 10px;
+     margin: 0;
+     width: 100vw;
+     text-align: center;
+ }
+
+ ul{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+
+ }
+
+ a {
+     text-decoration: none;
+     color: inherit;
+ }
+
+ /* 
+ HEADER SECTION
+  */
+
+  header {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 1rem;
+    height: 100vh;
+  }
+
+nav ul {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+      margin: 0 1rem;
+}
+
+header h1 {
+      font-size: 5rem;
+}
+
+header p {
+      font-size: 1.6rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid white;
+}
+
+.rotate {
+    margin-top: 2rem;
+    font-size: 3rem;
+    opacity: 0.4;
+}
+
+/* 
+Parallax SECTION
+ */
+
+ .parallax{
+     /* CHANGE THIS IMAGE TO BE A REPEATED PATTERN */
+     background-image: url('img/bubbles.png');
+     height: 100vh;
+     background-position: center;
+     background-size: 100vw;
+     background-attachment: fixed; 
+}
+
+.parallax ul {
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.parallax li {
+    margin: 2rem 0;
+}
+
+
+
+
+
+
